@@ -1,0 +1,8 @@
+[tool.black]
+line-length = 119
+target-version = ['py36']
+
+[tool.isort]
+profile = 'black'
+src_paths = ['style_doc']
+lines_after_imports = 2
