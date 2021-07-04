@@ -44,6 +44,7 @@ setuptools.setup(
     install_requires=install_requires,
     extras_require=extras_require,
     keywords=keywords,
+    entry_points={"console_scripts": ["style-doc = style_doc:cli_main"]},
     classifiers=[
         "Development Status :: 3 - Alpha",
         # "Development Status :: 4 - Beta",

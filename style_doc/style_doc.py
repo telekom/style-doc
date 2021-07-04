@@ -540,7 +540,7 @@ def main(*files, max_len=119, check_only=False):
         print(f"Cleaned {len(changed)} files!")
 
 
-if __name__ == "__main__":
+def main_argparse():
     parser = argparse.ArgumentParser()
     parser.add_argument("files", nargs="+", help="The file(s) or folder(s) to restyle.")
     parser.add_argument("--max_len", type=int, help="The maximum length of lines.")
@@ -548,3 +548,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     main(*args.files, max_len=args.max_len, check_only=args.check_only)
+
+
+if __name__ == "__main__":
+    main_argparse()

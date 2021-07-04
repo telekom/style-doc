@@ -14,12 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from style_doc.style_doc import main, main_argparse
-from style_doc.version import __version__
+from style_doc import cli_main
 
 
-__all__ = ["main", "main_argparse", "__version__"]
-
-
-def cli_main() -> None:
-    main_argparse()
+cli_main()
