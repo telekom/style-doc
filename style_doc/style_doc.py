@@ -19,6 +19,7 @@
 import argparse
 import os
 import re
+import sys
 import warnings
 from enum import Enum
 
@@ -532,7 +533,11 @@ def style_doc_files(*files, max_len=119, check_only=False):
     return changed
 
 
-def main(*files, max_len=119, check_only=False):
+def main(*files, max_len=119, check_only=False, py_only=False, rst_only=False):
+    if py_only and rst_only:
+        print("You must not set --py_only and --rst_only at the same time.")
+        sys.exit(1)
+
     changed = style_doc_files(*files, max_len=max_len, check_only=check_only)
     if check_only and len(changed) > 0:
         raise ValueError(f"{len(changed)} files should be restyled!")
@@ -545,9 +550,11 @@ def main_argparse():
     parser.add_argument("files", nargs="+", help="The file(s) or folder(s) to restyle.")
     parser.add_argument("--max_len", type=int, help="The maximum length of lines.")
     parser.add_argument("--check_only", action="store_true", help="Whether to only check and not fix styling issues.")
+    parser.add_argument("--py_only", action="store_true", help="Whether to only check py files.")
+    parser.add_argument("--rst_only", action="store_true", help="Whether to only check rst files.")
     args = parser.parse_args()
 
-    main(*args.files, max_len=args.max_len, check_only=args.check_only)
+    main(*args.files, max_len=args.max_len, check_only=args.check_only, py_only=args.py_only, rst_only=args.rst_only)
 
 
 if __name__ == "__main__":
