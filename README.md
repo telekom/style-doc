@@ -1,5 +1,13 @@
 # Style-Doc
 
+[![Apache 2.0 License](https://img.shields.io/github/license/telekom/style-doc)](https://github.com/telekom/style-doc/blob/main/LICENSE)
+[![Contributor Covenant v2.0](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](https://github.com/telekom/style-doc/blob/main/CODE_OF_CONDUCT.md)
+[![Python Version](https://img.shields.io/pypi/pyversions/style-doc)](https://www.python.org)
+[![pypi](https://img.shields.io/pypi/v/style-doc.svg)](https://pypi.python.org/pypi/style-doc)
+<br/>
+[![Static Code Checks](https://github.com/telekom/style-doc/actions/workflows/static_checks.yml/badge.svg)](https://github.com/telekom/style-doc/actions/workflows/static_checks.yml)
+[![GitHub issues](https://img.shields.io/github/issues-raw/telekom/style-doc)](https://github.com/telekom/style-doc/issues)
+
 Style-Doc is Black for Python docstrings and reStructuredText (rst). It can be used to format
 docstrings ([Google docstring format](https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings))
 in Python files or [reStructuredText](https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html).
