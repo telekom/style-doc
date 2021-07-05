@@ -27,7 +27,7 @@ from enum import Enum
 # Special blocks where the inside should be formatted.
 TEXTUAL_BLOCKS = ["note", "warning"]
 # List of acceptable characters for titles and sections underline.
-TITLE_SPECIAL_CHARS = """= - ` : ' " ~ ^ _ * + # < >""".split(" ")
+TITLE_SPECIAL_CHARS = ["=", "-", "`", ":", "'", '"', "~", "^", "_", "*", "+", "#", "<", ">"]
 # Special words for docstrings (s? means the s is optional)
 DOC_SPECIAL_WORD = [
     "Args?",
@@ -492,12 +492,16 @@ def style_file_docstrings(code_file, max_len=119, check_only=False):
     """Style all docstrings in `code_file` to `max_len`."""
     with open(code_file, "r", encoding="utf-8", newline="\n") as f:
         code = f.read()
-    splits = code.split('"""')
+    # fmt: off
+    splits = code.split("\"\"\"")
+    # fmt: on
     splits = [
         (s if i % 2 == 0 or _re_doc_ignore.search(splits[i - 1]) is not None else style_docstring(s, max_len=max_len))
         for i, s in enumerate(splits)
     ]
-    clean_code = '"""'.join(splits)
+    # fmt: off
+    clean_code = "\"\"\"".join(splits)
+    # fmt: on
 
     diff = clean_code != code
     if not check_only and diff:
