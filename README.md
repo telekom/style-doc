@@ -10,11 +10,11 @@ script from [The HuggingFace Inc. team](https://huggingface.co/).
 
 ## Installation
 
-Style-Doc is available at [the Python Package Index (PyPI)](https://pypi.org/project/style_doc/).
+Style-Doc is available at [the Python Package Index (PyPI)](https://pypi.org/project/style-doc/).
 It can be installed with _pip_:
 
 ```bash
-$ pip install style_doc
+$ pip install style-doc
 ```
 
 ## Usage
