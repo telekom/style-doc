@@ -8,7 +8,7 @@ import setuptools
 
 
 project_name = "style_doc"
-keywords = "formatting docstring rst"
+keywords = "automation formatter formatting docstring rst reStructuredText black"
 install_requires = []
 extras_require = {
     "checking": ["black", "flake8", "isort", "mdformat"],
@@ -35,7 +35,7 @@ setuptools.setup(
     maintainer="Philip May",
     author="Philip May",
     author_email="philip.may@t-systems.com",
-    description="Formatter for docstring and rst",
+    description="Black for Python Docstrings and reStructuredText (rst)",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/telekom/style-doc",
@@ -63,5 +63,6 @@ setuptools.setup(
         "Topic :: Software Development :: Libraries",
         "Topic :: Software Development :: Libraries :: Python Modules",
         "Operating System :: OS Independent",
+        "Topic :: Software Development :: Quality Assurance",
     ],
 )
