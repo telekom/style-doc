@@ -1,10 +1,13 @@
 # Style-Doc
 
-Style-Doc is Black for Python Docstrings and reStructuredText. It can be used to format
+Style-Doc is Black for Python Docstrings and reStructuredText (rst). It can be used to format
 docstrings ([Google docstring format](https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings))
 in Python files or [reStructuredText](https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html).
 
-This work is based on the
+![One Conversation](https://raw.githubusercontent.com/telekom/style-doc/main/docs/source/imgs/1c-logo.png)
+<br/>
+This project is maintained by the [One Conversation](https://www.welove.ai/)
+program of [Deutsche Telekom AG](https://www.telekom.com/). It is based on the
 [`style_doc.py`](https://github.com/huggingface/transformers/blob/23ab0b6980e8af5e0b42905d8c09d388245a029d/utils/style_doc.py)
 script from [The HuggingFace Inc. team](https://huggingface.co/).
 
