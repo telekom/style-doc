@@ -1,13 +1,4 @@
-.PHONY: style
-
 src := style_doc setup.py
-
-# format the code
-format:
-	style-doc --max_len 119 --py_only $(src)
-	black $(src)
-	isort $(src)
-	mdformat *.md
 
 # check the code
 check:
@@ -16,3 +7,10 @@ check:
 	flake8 $(src)
 	isort $(src) --check --diff	
 	mdformat --check *.md
+
+# format the code
+format:
+	style-doc --max_len 119 --py_only $(src)
+	black $(src)
+	isort $(src)
+	mdformat *.md
