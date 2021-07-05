@@ -35,7 +35,7 @@ setuptools.setup(
     maintainer="Philip May",
     author="Philip May",
     author_email="philip.may@t-systems.com",
-    description="Black for Python Docstrings and reStructuredText (rst)",
+    description="Black for Python docstrings and reStructuredText (rst)",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/telekom/style-doc",
