@@ -1,13 +1,13 @@
 # Style-Doc
 
-Style-Doc is Black for Python Docstrings and reStructuredText (rst). It can be used to format
+Style-Doc is Black for Python docstrings and reStructuredText (rst). It can be used to format
 docstrings ([Google docstring format](https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings))
 in Python files or [reStructuredText](https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html).
 
 ![One Conversation](https://raw.githubusercontent.com/telekom/style-doc/main/docs/source/imgs/1c-logo.png)
 <br/>
 This project is maintained by the [One Conversation](https://www.welove.ai/)
-program of [Deutsche Telekom AG](https://www.telekom.com/). It is based on the
+team of [Deutsche Telekom AG](https://www.telekom.com/). It is based on the
 [`style_doc.py`](https://github.com/huggingface/transformers/blob/23ab0b6980e8af5e0b42905d8c09d388245a029d/utils/style_doc.py)
 script from [The HuggingFace Inc. team](https://huggingface.co/).
 
@@ -38,6 +38,21 @@ optional arguments:
   --py_only          Whether to only check py files.
   --rst_only         Whether to only check rst files.
 ```
+
+### Examples
+
+- format all docstrings (.py files) and rst files in the `src` and `docs` folder with line length of 99:<br/>
+  `style-doc --max_len 99 src docs`
+- check all docstrings (.py files) and rst files in the `src` and `docs` folder with line length of 99:<br/>
+  `style-doc --max_len 99 --check_only src docs`
+- format all docstrings (.py files only) in the `src` folder with line length of 99:<br/>
+  `style-doc --max_len 99 --py_only src`
+- check all docstrings (.py files only) in the `src` folder with line length of 99:<br/>
+  `style-doc --max_len 99 --check_only --py_only src`
+- format all rst files only in the `docs` folder with line length of 99:<br/>
+  `style-doc --max_len 99 --rst_only docs`
+- check all rst files only in the `docs` folder with line length of 99:<br/>
+  `style-doc --max_len 99 --check_only --rst_only docs`
 
 ## Licensing
 
