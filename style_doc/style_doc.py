@@ -508,7 +508,7 @@ def style_file_docstrings(code_file, max_len=119, check_only=False):
     return diff
 
 
-def style_doc_files(*files, max_len=119, check_only=False):
+def style_doc_files(*files, max_len=119, check_only=False, py_only=False, rst_only=False):
     """
     Style all `files` to `max_len` and fixes mistakes if not `check_only`, otherwise raises an error if styling should
     be done.
@@ -519,16 +519,18 @@ def style_doc_files(*files, max_len=119, check_only=False):
         if os.path.isdir(file):
             files = [os.path.join(file, f) for f in os.listdir(file)]
             files = [f for f in files if os.path.isdir(f) or f.endswith(".rst") or f.endswith(".py")]
-            changed += style_doc_files(*files, max_len=max_len, check_only=check_only)
+            changed += style_doc_files(
+                *files, max_len=max_len, check_only=check_only, py_only=py_only, rst_only=rst_only
+            )
         # Treat rst
-        elif file.endswith(".rst"):
+        elif file.endswith(".rst") and not py_only:
             if style_rst_file(file, max_len=max_len, check_only=check_only):
                 changed.append(file)
         # Treat python files
-        elif file.endswith(".py"):
+        elif file.endswith(".py") and not rst_only:
             if style_file_docstrings(file, max_len=max_len, check_only=check_only):
                 changed.append(file)
-        else:
+        elif not py_only and not rst_only:
             warnings.warn(f"Ignoring {file} because it's not a py or an rst file or a folder.")
     return changed
 
@@ -538,7 +540,7 @@ def main(*files, max_len=119, check_only=False, py_only=False, rst_only=False):
         print("You must not set --py_only and --rst_only at the same time.")
         sys.exit(1)
 
-    changed = style_doc_files(*files, max_len=max_len, check_only=check_only)
+    changed = style_doc_files(*files, max_len=max_len, check_only=check_only, py_only=py_only, rst_only=rst_only)
     if check_only and len(changed) > 0:
         raise ValueError(f"{len(changed)} files should be restyled!")
     elif len(changed) > 0:
