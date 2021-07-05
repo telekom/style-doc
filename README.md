@@ -16,8 +16,8 @@ in Python files or [reStructuredText](https://www.sphinx-doc.org/en/master/usage
 <br/>
 This project is maintained by the [One Conversation](https://www.welove.ai/)
 team of [Deutsche Telekom AG](https://www.telekom.com/). It is based on the
-[`style_doc.py`](https://github.com/huggingface/transformers/blob/23ab0b6980e8af5e0b42905d8c09d388245a029d/utils/style_doc.py)
-script from [The HuggingFace Inc. team](https://huggingface.co/).
+[style_doc.py](https://github.com/huggingface/transformers/blob/23ab0b6980e8af5e0b42905d8c09d388245a029d/utils/style_doc.py)
+script from the [HuggingFace Inc.](https://huggingface.co/) team.
 
 ## Installation
 
@@ -61,6 +61,10 @@ optional arguments:
   `style-doc --max_len 99 --rst_only docs`
 - check all rst files only in the `docs` folder with line length of 99:<br/>
   `style-doc --max_len 99 --check_only --rst_only docs`
+
+To integrate Style-Doc (and more checks) into your [GitHub Actions](https://docs.github.com/en/actions) see our
+[static_checks.yml](https://github.com/telekom/style-doc/blob/main/.github/workflows/static_checks.yml)
+example and our configuration in [setup.py](https://github.com/telekom/style-doc/blob/main/setup.py).
 
 ## Licensing
 
