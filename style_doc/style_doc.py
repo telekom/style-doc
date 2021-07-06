@@ -546,7 +546,9 @@ def main(*files, max_len=119, check_only=False, py_only=False, rst_only=False):
 
     changed = style_doc_files(*files, max_len=max_len, check_only=check_only, py_only=py_only, rst_only=rst_only)
     if check_only and len(changed) > 0:
-        print(f"{len(changed)} files should be restyled!")
+        print(f"The following {len(changed)} files should be restyled:")
+        for filename in changed:
+            print(filename)
         sys.exit(1)
     elif len(changed) > 0:
         print(f"Cleaned {len(changed)} files!")
