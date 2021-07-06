@@ -542,11 +542,12 @@ def style_doc_files(*files, max_len=119, check_only=False, py_only=False, rst_on
 def main(*files, max_len=119, check_only=False, py_only=False, rst_only=False):
     if py_only and rst_only:
         print("You must not set --py_only and --rst_only at the same time.")
-        sys.exit(1)
+        sys.exit(2)
 
     changed = style_doc_files(*files, max_len=max_len, check_only=check_only, py_only=py_only, rst_only=rst_only)
     if check_only and len(changed) > 0:
-        raise ValueError(f"{len(changed)} files should be restyled!")
+        print(f"{len(changed)} files should be restyled!")
+        sys.exit(1)
     elif len(changed) > 0:
         print(f"Cleaned {len(changed)} files!")
 
