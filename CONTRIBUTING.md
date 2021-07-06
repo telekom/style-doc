@@ -123,6 +123,8 @@ $ pytest -v tests
 - Use the [Google docstring format](https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings).
   This is integrated with [Sphinx](https://www.sphinx-doc.org/) using the
   [napoleon extension](https://sphinxcontrib-napoleon.readthedocs.io/).
+- Versioning follow the [Semantic Versioning Specification](https://semver.org/) and
+  [PEP 440 -- Version Identification and Dependency Specification](https://www.python.org/dev/peps/pep-0440/).
 
 ## Release Checklist
 
