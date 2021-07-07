@@ -120,9 +120,11 @@ $ pytest -v tests
 
 - The code must be compatible with Python 3.5 and higher.
 - Max line length is 119
-- Use the [Google docstring format](https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings).
-  This is integrated with [Sphinx](https://www.sphinx-doc.org/) using the
-  [napoleon extension](https://sphinxcontrib-napoleon.readthedocs.io/).
+- Docstrings
+  - Use the [Google docstring format](https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings).
+    This is integrated with [Sphinx](https://www.sphinx-doc.org/) using the
+    [napoleon extension](https://sphinxcontrib-napoleon.readthedocs.io/).
+  - `__init__` functions never get a docstring. Add constructor documentation at the class level.
 - Versioning follows the [Semantic Versioning Specification](https://semver.org/) and
   [PEP 440 -- Version Identification and Dependency Specification](https://www.python.org/dev/peps/pep-0440/).
 
