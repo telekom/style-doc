@@ -10,7 +10,7 @@ to our attention by contacting us via this email: opensource@telekom.de
 Components:
 -----------
 
-Component: 	Python
+Component:  Python
 Version:    3 or later
 Website:    https://www.python.org/
 Repository: https://github.com/python/cpython
@@ -19,32 +19,32 @@ License:    PSF License Agreement
 Components for Quality Control:
 -------------------------------
 
-Component: 	pytest
+Component:  pytest
 Version:    6.2.4 or later
-Website:   	https://docs.pytest.org/
-Repository:	https://github.com/pytest-dev/pytest
-License:   	MIT License
+Website:    https://docs.pytest.org/
+Repository: https://github.com/pytest-dev/pytest
+License:    MIT License
 
-Component: 	Black
+Component:  Black
 Version:    21.6b0 or later
-Website:   	https://black.readthedocs.io/
-Repository:	https://github.com/psf/black
-License:   	MIT License
+Website:    https://black.readthedocs.io/
+Repository: https://github.com/psf/black
+License:    MIT License
 
-Component: 	Flake8
+Component:  Flake8
 Version:    3.9.2 or later
-Website:   	https://flake8.pycqa.org/
-Repository:	https://github.com/PyCQA/flake8
-License:   	Flake8 License (MIT)
+Website:    https://flake8.pycqa.org/
+Repository: https://github.com/PyCQA/flake8
+License:    Flake8 License (MIT)
 
-Component: 	isort
+Component:  isort
 Version:    5.9.1 or later
-Website:   	https://pycqa.github.io/isort/
-Repository:	https://github.com/pycqa/isort
-License:   	MIT License
+Website:    https://pycqa.github.io/isort/
+Repository: https://github.com/pycqa/isort
+License:    MIT License
 
-Component: 	mdformat
+Component:  mdformat
 Version:    0.7.7 or later
-Website:   	https://mdformat.readthedocs.io/
-Repository:	https://github.com/executablebooks/mdformat
-License:   	MIT License
+Website:    https://mdformat.readthedocs.io/
+Repository: https://github.com/executablebooks/mdformat
+License:    MIT License
