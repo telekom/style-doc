@@ -14,6 +14,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+
 """Style utils for the .rst and the docstrings."""
 
 import argparse
@@ -557,7 +558,7 @@ def main(*files, max_len=119, check_only=False, py_only=False, rst_only=False):
 def main_argparse():
     parser = argparse.ArgumentParser()
     parser.add_argument("files", nargs="+", help="The file(s) or folder(s) to restyle.")
-    parser.add_argument("--max_len", type=int, help="The maximum length of lines.")
+    parser.add_argument("--max_len", type=int, help="The maximum length of lines. Default: 119", default=119)
     parser.add_argument("--check_only", action="store_true", help="Whether to only check and not fix styling issues.")
     parser.add_argument("--py_only", action="store_true", help="Whether to only check py files.")
     parser.add_argument("--rst_only", action="store_true", help="Whether to only check rst files.")

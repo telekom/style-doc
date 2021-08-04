@@ -42,7 +42,7 @@ positional arguments:
 
 optional arguments:
   -h, --help         show this help message and exit
-  --max_len MAX_LEN  The maximum length of lines.
+  --max_len MAX_LEN  The maximum length of lines. Default: 119
   --check_only       Whether to only check and not fix styling issues.
   --py_only          Whether to only check py files.
   --rst_only         Whether to only check rst files.
