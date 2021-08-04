@@ -15,8 +15,11 @@
 # limitations under the License.
 
 from style_doc.style_doc import main, main_argparse
-from style_doc.version import __version__
 
+
+# Versioning follows the `Semantic Versioning Specification <https://semver.org/>`__ and
+# `PEP 440 -- Version Identification and Dependency Specification <https://www.python.org/dev/peps/pep-0440/>`__.  # noqa: E501
+__version__ = "0.0.2.dev5"
 
 __all__ = ["main", "main_argparse", "__version__"]
 
