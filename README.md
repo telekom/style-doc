@@ -12,7 +12,7 @@ Style-Doc is Black for Python docstrings and reStructuredText (rst). It can be u
 docstrings ([Google docstring format](https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings))
 in Python files or [reStructuredText](https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html).
 
-Style-Doc expects Linux style `\n` line endings. It does not handle Windows `\r\n` or other line endlings.
+Style-Doc can handle Linux, Windows and Mac style line endings. The output will nevertheless be convertet to `\n` Linux line endings.
 
 ![One Conversation](https://raw.githubusercontent.com/telekom/style-doc/main/docs/source/imgs/1c-logo.png)
 <br/>
