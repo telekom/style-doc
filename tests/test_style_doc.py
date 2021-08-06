@@ -28,3 +28,29 @@ def test_linux_line_separators(tmpdir):
 
     assert content[0] == "Main\n"
     assert content[1] == "=" * 99 + "\n"
+
+def test_windows_line_separators(tmpdir):
+    tmp_file_name = os.path.join(tmpdir, "file.rst")
+    with open(tmp_file_name, "w") as f:
+        f.write("Main\r\n====\r\n")
+
+    os.system(f"style-doc --max_len 99 {tmpdir}")
+
+    with open(tmp_file_name, "r") as f:
+        content = f.readlines()
+
+    assert content[0] == "Main\n"
+    assert content[1] == "=" * 99 + "\n"
+
+def test_mac_line_separators(tmpdir):
+    tmp_file_name = os.path.join(tmpdir, "file.rst")
+    with open(tmp_file_name, "w") as f:
+        f.write("Main\r====\r")
+
+    os.system(f"style-doc --max_len 99 {tmpdir}")
+
+    with open(tmp_file_name, "r") as f:
+        content = f.readlines()
+
+    assert content[0] == "Main\n"
+    assert content[1] == "=" * 99 + "\n"

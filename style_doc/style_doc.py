@@ -436,7 +436,7 @@ def _add_new_lines_before_doc_special_words(text):
 
 def style_rst_file(doc_file, max_len=119, check_only=False):
     """Style one rst file `doc_file` to `max_len`."""
-    with open(doc_file, "r", encoding="utf-8", newline="\n") as f:
+    with open(doc_file, "r", encoding="utf-8", newline=None) as f:
         doc = f.read()
 
     # Make sure code blocks are indented at 4
@@ -491,7 +491,7 @@ def style_docstring(docstring, max_len=119):
 
 def style_file_docstrings(code_file, max_len=119, check_only=False):
     """Style all docstrings in `code_file` to `max_len`."""
-    with open(code_file, "r", encoding="utf-8", newline="\n") as f:
+    with open(code_file, "r", encoding="utf-8", newline=None) as f:
         code = f.read()
     # fmt: off
     splits = code.split("\"\"\"")
