@@ -27,7 +27,7 @@ to publish it as a standalone package 🤗 ♥.
 ## Installation
 
 Style-Doc is available at [the Python Package Index (PyPI)](https://pypi.org/project/style-doc/).
-It can be installed with _pip_:
+It can be installed with pip:
 
 ```bash
 $ pip install style-doc
