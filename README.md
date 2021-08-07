@@ -17,10 +17,12 @@ Style-Doc can handle Linux, Windows and Mac style line endings. The output will 
 ![One Conversation](https://raw.githubusercontent.com/telekom/style-doc/main/docs/source/imgs/1c-logo.png)
 <br/>
 This project is maintained by the [One Conversation](https://www.welove.ai/)
-team of [Deutsche Telekom AG](https://www.telekom.com/).<br/>
+team of [Deutsche Telekom AG](https://www.telekom.com/).
 It is based on the
 [style_doc.py](https://github.com/huggingface/transformers/blob/23ab0b6980e8af5e0b42905d8c09d388245a029d/utils/style_doc.py)
-script from the [HuggingFace Inc.](https://huggingface.co/) team.
+script from the [HuggingFace](https://huggingface.co/) team.
+Many thanks for [your consent](https://github.com/huggingface/transformers/issues/12473)
+to publish it as a standalone package 🤗 ♥.
 
 ## Installation
 
