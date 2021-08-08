@@ -13,7 +13,7 @@ install_requires = []
 extras_require = {
     "checking": ["black", "flake8", "isort", "mdformat"],
     "optional": [],
-    "testing": ["pytest"],
+    "testing": ["pytest", "packaging"],
 }
 
 
