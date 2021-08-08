@@ -10,6 +10,7 @@ jobs:
   checks:
     env:
       src: "style_doc setup.py"
+      other-src: "tests"
 
     runs-on: ubuntu-latest
 
@@ -25,16 +26,16 @@ jobs:
         pip install --progress-bar off -U .[checking]
 
     - name: Check with black
-      run: black ${{ env.src }} --check --diff
+      run: black ${{ env.src }} ${{ env.other-src }} --check --diff
 
     - name: Check with flake8
-      run: flake8 ${{ env.src }}
+      run: flake8 ${{ env.src }} ${{ env.other-src }}
 
     - name: Check with isort
-      run: isort ${{ env.src }} --check --diff
+      run: isort ${{ env.src }} ${{ env.other-src }} --check --diff
 
     - name: Check with mdformat
       run: mdformat --check *.md
 
     - name: Check with style-doc
-      run: style-doc --max_len 119 --check_only --py_only ${{ env.src }}
+      run: style-doc --max_len 119 --check_only --py_only ${{ env.src }} ${{ env.other-src }}
