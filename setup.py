@@ -3,15 +3,24 @@
 # which is available at https://opensource.org/licenses/MIT
 
 import os
+from typing import List
 
 import setuptools
 
 
 project_name = "style_doc"
 keywords = "automation formatter formatting docstring rst reStructuredText black linter linting"
-install_requires = []
+install_requires: List[str] = []
 extras_require = {
-    "checking": ["black", "flake8", "isort", "mdformat"],
+    "checking": [
+        "black",
+        "flake8",
+        "isort",
+        "mdformat",
+        "mypy",
+        "pylint",
+        "pylintfileheader",
+    ],
     "optional": [],
     "testing": ["pytest", "packaging"],
 }
