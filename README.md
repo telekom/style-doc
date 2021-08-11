@@ -1,7 +1,7 @@
 # Style-Doc
 
 [![Apache 2.0 License](https://img.shields.io/github/license/telekom/style-doc)](https://github.com/telekom/style-doc/blob/main/LICENSE)
-[![Contributor Covenant v2.0](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](https://github.com/telekom/style-doc/blob/main/CODE_OF_CONDUCT.md)
+[![Contributor Covenant v2.0](https://img.shields.io/badge/Code%20of%20Conduct-Contributor%20Covenant-ff69b4.svg)](https://github.com/telekom/style-doc/blob/main/CODE_OF_CONDUCT.md)
 [![Python Version](https://img.shields.io/pypi/pyversions/style-doc)](https://www.python.org)
 [![pypi](https://img.shields.io/pypi/v/style-doc.svg)](https://pypi.python.org/pypi/style-doc)
 <br/>
@@ -92,7 +92,7 @@ By participating in this project, you agree to abide by its
 ## Code of Conduct
 
 This project has adopted the [Contributor Covenant](https://www.contributor-covenant.org/)
-in version 2.0 as our code of conduct. Please see the details in our
+as our code of conduct. Please see the details in our
 [CODE_OF_CONDUCT.md](https://github.com/telekom/style-doc/blob/main/CODE_OF_CONDUCT.md).
 All contributors must abide by the code of conduct.
 
