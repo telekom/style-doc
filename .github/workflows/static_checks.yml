@@ -9,8 +9,8 @@ on:
 jobs:
   checks:
     env:
-      src: "style_doc setup.py"
-      other-src: "tests"
+      src: "style_doc"
+      other-src: "tests setup.py"
 
     runs-on: ubuntu-latest
 
@@ -25,6 +25,9 @@ jobs:
         python -m pip install -U pip
         pip install --progress-bar off -U .[checking]
 
+    - name: Check with style-doc
+      run: style-doc --max_len 119 --check_only --py_only ${{ env.src }} ${{ env.other-src }}
+
     - name: Check with black
       run: black ${{ env.src }} ${{ env.other-src }} --check --diff
 
@@ -36,6 +39,3 @@ jobs:
 
     - name: Check with mdformat
       run: mdformat --check *.md
-
-    - name: Check with style-doc
-      run: style-doc --max_len 119 --check_only --py_only ${{ env.src }} ${{ env.other-src }}
