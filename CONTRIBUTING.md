@@ -5,7 +5,6 @@
 - [Code of Conduct](#code-of-conduct)
 - [Reporting Bugs and Issues](#reporting-bugs-and-issues)
 - [Engaging in our Project](#engaging-in-our-project)
-- [Steps to Contribute](#steps-to-contribute)
 - [Pull Request Checklist](#pull-request-checklist)
 - [Contributing Code](#contributing-code)
 - [Contributing Documentation](#contributing-documentation)
@@ -34,7 +33,6 @@ the project itself will be closed by our community managers.
 
 ## Engaging in our Project
 
-- If you are a new contributor, see: [Steps to Contribute](#steps-to-contribute)
 - If you have a trivial fix or improvement, plese go ahead and create a pull request.
 - A general guide to pull requests is here:
   [About pull requests](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
@@ -42,18 +40,13 @@ the project itself will be closed by our community managers.
   repository.
 - If you plan to do something more involved, please open an issue to start a discussion with us.
 - Relevant coding [style guidelines](#style-guidelines) are available in this document.
-
-## Steps to Contribute
-
-Should you wish to work on an issue, please claim it first by commenting
-on the GitHub issue that you want to work on. This is to prevent duplicated
-efforts from other contributors on the same issue.
-
-If you have questions about one of the issues, please comment on them,
-and one of the maintainers will clarify.
-
-We kindly ask you to follow the [Pull Request Checklist](#Pull-Request-Checklist)
-to ensure reviews can happen accordingly.
+- Should you wish to work on an issue, please claim it first by commenting
+  on the GitHub issue that you want to work on. This is to prevent duplicated
+  efforts from other contributors on the same issue.
+- If you have questions about one of the issues, please comment on them,
+  and one of the maintainers will clarify.
+- We kindly ask you to follow the [Pull Request Checklist](#Pull-Request-Checklist)
+  to ensure reviews can happen accordingly.
 
 ## Pull Request Checklist
 
