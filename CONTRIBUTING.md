@@ -105,7 +105,7 @@ To run unit tests locally, ensure that you have installed all relevant requireme
 You will probably want to install it in "editable mode" if you are developing locally.
 
 ```bash
-$ pip install -e ".[optional,testing,checking]"
+$ pip install -e .[optional,testing,checking]
 ```
 
 Unit tests can then be run as follows:
