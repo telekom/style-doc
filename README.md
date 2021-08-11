@@ -93,14 +93,12 @@ The following channels are available for discussions, feedback, and support requ
 
 ## Contribution
 
-Our commitment to open source means that we are enabling -in fact encouraging- all interested
+Our commitment to open source means that we are enabling - in fact encouraging - all interested
 parties to contribute and become part of our developer community.
 
 Contribution and feedback is encouraged and always welcome. For more information about how to
 contribute, as well as additional contribution information, see our
 [Contribution Guidelines](https://github.com/telekom/style-doc/blob/main/CONTRIBUTING.md).
-By participating in this project, you agree to abide by its
-[Code of Conduct](https://github.com/telekom/style-doc/blob/main/CODE_OF_CONDUCT.md) at all times.
 
 ## Code of Conduct
 
