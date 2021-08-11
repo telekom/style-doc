@@ -1,6 +1,7 @@
 # Contributing
 
 ## Table of Contents
+
 - [Code of Conduct](#code-of-conduct)
 - [Reporting Bugs and Issues](#reporting-bugs-and-issues)
 - [Engaging in our Project](#engaging-in-our-project)
@@ -39,7 +40,7 @@ We use GitHub to manage reviews of pull requests.
 - If you have a trivial fix or improvement, plese go ahead and create a pull request.
 - A general guide to pull requests is here:
   [About pull requests](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
-- If you want you can address (with `@...`) a suitable [code owner](#code-owners) of this 
+- If you want you can address (with `@...`) a suitable [code owner](#code-owners) of this
   repository.
 - If you plan to do something more involved, please open an issue to start a discussion with us.
   This should avoid unnecessary work for you and us.
@@ -78,7 +79,7 @@ to ensure reviews can happen accordingly.
   - Set respective comments in your GitHub review to resolved.
   - Create a general PR comment to notify the reviewers that your amendments are ready for
     another round of review.
-  
+
 ## Contributing Code
 
 You are welcome to contribute code in order to fix a bug or to implement a new feature.
@@ -113,7 +114,7 @@ The following rule governs documentation contributions:
 
 - Contributions must be licensed under the [license of this project](LICENSE).
 - This is the same license as the code.
- 
+
 ## Testing, linting and formatting
 
 To run unit tests locally, ensure that you have installed all relevant requirements.
