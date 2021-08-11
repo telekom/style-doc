@@ -2,12 +2,12 @@
 
 ## Table of Contents
 - [Code of Conduct](#code-of-conduct)
+- [Reporting Bugs and Issues](#reporting-bugs-and-issues)
 - [Engaging in our Project](#engaging-in-our-project)
 - [Steps to Contribute](#steps-to-contribute)
 - [Contributing Code](#contributing-code)
 - [Contributing Documentation](#contributing-documentation)
 - [Pull Request Checklist](#pull-request-checklist)
-- [Reporting Bugs, Issues and Planning](#reporting-bugs-issues-and-planning)
 - [Testing, linting and formatting](#testing-linting-and-formatting)
 - [Style Guidelines](#style-guidelines)
 - [Code Owners](#code-owners)
@@ -22,6 +22,14 @@ unacceptable behavior may be reported by contacting
 
 We appreciate your courtesy of avoiding political questions here. Issues that are not related to
 the project itself will be closed by our community managers.
+
+## Reporting Bugs and Issues
+
+- We use GitHub issues to track bugs and enhancement requests.
+- Please provide as much context as possible when you report a bug and open an issue.
+- Ensure the bug was not already reported by searching on GitHub under Issues.
+- The information you provide must be comprehensive enough to reproduce
+  that issue for the assignee.
 
 ## Engaging in our Project
 
@@ -105,15 +113,7 @@ The following rule governs documentation contributions:
   - Set respective comments in your GitHub review to resolved.
   - Create a general PR comment to notify the reviewers that your amendments are ready for
     another round of review.
-
-## Reporting Bugs, Issues and Planning
-
-- We use GitHub issues to track bugs and enhancement requests.
-- Please provide as much context as possible when you report a bug and open an issue.
-- Ensure the bug was not already reported by searching on GitHub under Issues.
-- The information you provide must be comprehensive enough to reproduce
-  that issue for the assignee.
-
+  
 ## Testing, linting and formatting
 
 To run unit tests locally, ensure that you have installed all relevant requirements.
