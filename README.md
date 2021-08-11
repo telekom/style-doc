@@ -14,6 +14,19 @@ in Python files or [reStructuredText](https://www.sphinx-doc.org/en/master/usage
 
 Style-Doc can handle Linux, Windows and Mac style line endings. The output will nevertheless be convertet to `\n` Linux line endings.
 
+## Table of Contents
+
+- [Maintainers](#maintainers)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Examples](#examples)
+- [Support and Feedback](#support-and-feedback)
+- [Licensing](#licensing)
+
+TODO: check and extend TOC
+
+## Maintainers
+
 ![One Conversation](https://raw.githubusercontent.com/telekom/style-doc/main/docs/source/imgs/1c-logo.png)
 <br/>
 This project is maintained by the [One Conversation](https://www.welove.ai/)
