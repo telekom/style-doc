@@ -17,8 +17,10 @@ We use GitHub to manage reviews of pull requests.
 
 - If you are a new contributor, see: [Steps to Contribute](#steps-to-contribute)
 - If you have a trivial fix or improvement, plese go ahead and create a pull request.
+- A general guide to pull requests is here:
+  [About pull requests](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 - If you want you can address (with `@...`) a suitable maintainer of this repository (see 
-- [Code Owners](#code-owners)).
+  [Code Owners](#code-owners)).
 - If you plan to do something more involved, please open an issue to start a discussion with us.
   This should avoid unnecessary work for you and us.
 - Relevant coding [style guidelines](#style-guidelines) are available in this document.
