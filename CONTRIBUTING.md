@@ -1,5 +1,17 @@
 # Contributing
 
+## Table of Contents
+- [Code of Conduct](#code-of-conduct)
+- [Engaging in our Project](engaging-in-our-project)
+- [Steps to Contribute](#steps-to-contribute)
+- [Contributing Code](#contributing-code)
+- [Contributing Documentation](#contributing-documentation)
+- [Pull Request Checklist](#pull-request-checklist)
+- [Reporting Bugs, Issues and Planning](#)
+- [Testing, linting and formatting](#)
+- [Style Guidelines](#style-guidelines)
+- [Code Owners](#code-owners)
+
 ## Code of Conduct
 
 All members of the project community must abide by the
