@@ -8,7 +8,7 @@ check:
 	flake8 $(src) $(test-src) $(other-src)
 	isort $(src) $(test-src) $(other-src) --check --diff
 	mdformat --check *.md
-	mypy $(src) $(test-src) $(other-src)
+	mypy --install-types --non-interactive $(src) $(test-src) $(other-src)
 	pylint $(src)
 
 format:
