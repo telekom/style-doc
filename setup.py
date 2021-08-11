@@ -9,6 +9,7 @@ import setuptools
 
 
 project_name = "style_doc"
+source_code = "https://github.com/telekom/style-doc"
 keywords = "automation formatter formatting docstring rst reStructuredText black linter linting"
 install_requires: List[str] = []
 extras_require = {
@@ -48,7 +49,13 @@ setuptools.setup(
     description="Black for Python docstrings and reStructuredText (rst)",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/telekom/style-doc",
+    url=source_code,
+    project_urls={
+        "Bug Tracker": source_code + "/issues",
+        "Source Code": source_code,
+        "Contributing": source_code + "/blob/main/CONTRIBUTING.md",
+        "Code of Conduct": source_code + "/blob/main/CODE_OF_CONDUCT.md",
+    },
     packages=setuptools.find_packages(),
     python_requires=">=3.6",
     install_requires=install_requires,
