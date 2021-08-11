@@ -5,9 +5,9 @@
 - [Reporting Bugs and Issues](#reporting-bugs-and-issues)
 - [Engaging in our Project](#engaging-in-our-project)
 - [Steps to Contribute](#steps-to-contribute)
+- [Pull Request Checklist](#pull-request-checklist)
 - [Contributing Code](#contributing-code)
 - [Contributing Documentation](#contributing-documentation)
-- [Pull Request Checklist](#pull-request-checklist)
 - [Testing, linting and formatting](#testing-linting-and-formatting)
 - [Style Guidelines](#style-guidelines)
 - [Code Owners](#code-owners)
@@ -57,6 +57,28 @@ and one of the maintainers will clarify.
 We kindly ask you to follow the [Pull Request Checklist](#Pull-Request-Checklist)
 to ensure reviews can happen accordingly.
 
+## Pull Request Checklist
+
+- Branch from the master branch and, if needed, rebase to the current master branch
+  before submitting your pull request. You may be asked to rebase your changes if your
+  branch doesn't merge cleanly with master.
+- Commits should be as small as possible while ensuring that each commit is correct
+  independently (i.e., each commit should work and pass tests).
+- Test your changes as thoroughly as possible before you commit them. Preferably,
+  automate your test by unit/integration tests. If tested manually, provide information
+  about the test scope in the PR description (e.g. “Test passed: Upgrade version from
+  0.42 to 0.42.23.”).
+- To differentiate your PR from PRs ready to be merged and to avoid duplicated work,
+  please prefix the title with \[WIP\].
+- If your pull request is not getting reviewed, or you need a specific person to review it,
+  you can @-reply a [code owner](#code-owners) asking for a review in the pull request.
+- Post review:
+  - If a review requires you to change your commit(s), please test the changes again.
+  - Amend the affected commit(s) and force push onto your branch.
+  - Set respective comments in your GitHub review to resolved.
+  - Create a general PR comment to notify the reviewers that your amendments are ready for
+    another round of review.
+  
 ## Contributing Code
 
 You are welcome to contribute code in order to fix a bug or to implement a new feature.
@@ -91,29 +113,7 @@ The following rule governs documentation contributions:
 
 - Contributions must be licensed under the [license of this project](LICENSE).
 - This is the same license as the code.
-
-## Pull Request Checklist
-
-- Branch from the master branch and, if needed, rebase to the current master branch
-  before submitting your pull request. You may be asked to rebase your changes if your
-  branch doesn't merge cleanly with master.
-- Commits should be as small as possible while ensuring that each commit is correct
-  independently (i.e., each commit should work and pass tests).
-- Test your changes as thoroughly as possible before you commit them. Preferably,
-  automate your test by unit/integration tests. If tested manually, provide information
-  about the test scope in the PR description (e.g. “Test passed: Upgrade version from
-  0.42 to 0.42.23.”).
-- To differentiate your PR from PRs ready to be merged and to avoid duplicated work,
-  please prefix the title with \[WIP\].
-- If your pull request is not getting reviewed, or you need a specific person to review it,
-  you can @-reply a [code owner](#code-owners) asking for a review in the pull request.
-- Post review:
-  - If a review requires you to change your commit(s), please test the changes again.
-  - Amend the affected commit(s) and force push onto your branch.
-  - Set respective comments in your GitHub review to resolved.
-  - Create a general PR comment to notify the reviewers that your amendments are ready for
-    another round of review.
-  
+ 
 ## Testing, linting and formatting
 
 To run unit tests locally, ensure that you have installed all relevant requirements.
