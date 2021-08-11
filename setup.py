@@ -8,7 +8,7 @@ import setuptools
 
 
 project_name = "style_doc"
-keywords = "automation formatter formatting docstring rst reStructuredText black"
+keywords = "automation formatter formatting docstring rst reStructuredText black linter linting"
 install_requires = []
 extras_require = {
     "checking": ["black", "flake8", "isort", "mdformat"],
