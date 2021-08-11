@@ -26,8 +26,6 @@ Style-Doc can handle Linux, Windows and Mac style line endings. The output will 
 - [Code of Conduct](#code-of-conduct)
 - [Licensing](#licensing)
 
-TODO: check and extend TOC
-
 ## Maintainers
 
 ![One Conversation](https://raw.githubusercontent.com/telekom/style-doc/main/docs/source/imgs/1c-logo.png)
