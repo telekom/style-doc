@@ -2,7 +2,7 @@
 
 ## Table of Contents
 - [Code of Conduct](#code-of-conduct)
-- [Engaging in our Project](engaging-in-our-project)
+- [Engaging in our Project](#engaging-in-our-project)
 - [Steps to Contribute](#steps-to-contribute)
 - [Contributing Code](#contributing-code)
 - [Contributing Documentation](#contributing-documentation)
