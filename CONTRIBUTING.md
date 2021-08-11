@@ -43,7 +43,6 @@ We use GitHub to manage reviews of pull requests.
 - If you want you can address (with `@...`) a suitable [code owner](#code-owners) of this
   repository.
 - If you plan to do something more involved, please open an issue to start a discussion with us.
-  This should avoid unnecessary work for you and us.
 - Relevant coding [style guidelines](#style-guidelines) are available in this document.
 
 ## Steps to Contribute
