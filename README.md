@@ -21,6 +21,9 @@ Style-Doc can handle Linux, Windows and Mac style line endings. The output will 
 - [Usage](#usage)
 - [Examples](#examples)
 - [Support and Feedback](#support-and-feedback)
+- [Reporting Security Vulnerabilities]()
+- [Contribution]()
+- [Code of Conduct]()
 - [Licensing](#licensing)
 
 TODO: check and extend TOC
@@ -90,6 +93,19 @@ The following channels are available for discussions, feedback, and support requ
 
 - [open an issue in our GitHub repository](https://github.com/telekom/style-doc/issues/new/choose)
 - [send an e-mail to our open source team](mailto:opensource@telekom.de)
+
+# Reporting Security Vulnerabilities
+
+This project is built with security and data privacy in mind to ensure your data is safe.
+We are grateful for security researchers and users reporting a vulnerability to us, first.
+To ensure that your request is handled in a timely manner and non-disclosure of vulnerabilities
+can be assured, please follow the below guideline.
+
+**Please do not report security vulnerabilities directly on GitHub.
+GitHub Issues can be publicly seen and therefore would result in a direct disclosure.**
+
+Please address questions about data privacy, security concepts,
+and other media requests to the [opensource@telekom.de](mailto:opensource@telekom.de) mailbox.
 
 ## Contribution
 
