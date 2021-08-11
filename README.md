@@ -42,14 +42,14 @@ usage: style-doc [-h] [--max_len MAX_LEN] [--check_only] [--py_only]
                  files [files ...]
 
 positional arguments:
-  files              The file(s) or folder(s) to restyle.
+  files              file(s) or folder(s) to restyle
 
 optional arguments:
   -h, --help         show this help message and exit
-  --max_len MAX_LEN  The maximum length of lines. Default: 119
-  --check_only       Whether to only check and not fix styling issues.
-  --py_only          Whether to only check py files.
-  --rst_only         Whether to only check rst files.
+  --max_len MAX_LEN  maximum length of lines, default: 119
+  --check_only       only check and not fix styling issues
+  --py_only          only check py files
+  --rst_only         only check rst files
 ```
 
 ### Examples
