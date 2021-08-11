@@ -120,13 +120,13 @@ Unit tests can then be run as follows:
 $ pytest -v tests
 ```
 
-To check for linting errors use make:
+To check for linting errors use make (not available on Windows):
 
 ```bash
 $ make check
 ```
 
-To format the code use make:
+To format the code use make (not available on Windows):
 
 ```bash
 $ make format
