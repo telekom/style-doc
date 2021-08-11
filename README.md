@@ -109,15 +109,6 @@ as our code of conduct. Please see the details in our
 [CODE_OF_CONDUCT.md](https://github.com/telekom/style-doc/blob/main/CODE_OF_CONDUCT.md).
 All contributors must abide by the code of conduct.
 
-## Working Language
-
-We decided to apply _English_ as the primary project language.
-
-Consequently, all content will be made available primarily in English. We also ask all interested
-people to use English as language to create issues, in their code (comments, documentation etc.) and
-when you send requests to us. The application itself and all end-user facing content will be made
-available in other languages as needed.
-
 ## Licensing
 
 Copyright (c) 2020 The HuggingFace Inc. team<br/>
