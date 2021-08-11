@@ -3,8 +3,8 @@
 ## Code of Conduct
 
 All members of the project community must abide by the
-[Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). Only by respecting each other can we 
-develop a productive and collaborative community. Instances of abusive, harassing, or otherwise 
+[Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). Only by respecting each other can we
+develop a productive and collaborative community. Instances of abusive, harassing, or otherwise
 unacceptable behavior may be reported by contacting
 [opensource@telekom.de](mailto:opensource@telekom.de) and/or a project maintainer.
 
