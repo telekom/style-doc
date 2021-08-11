@@ -5,6 +5,7 @@
 [![Python Version](https://img.shields.io/pypi/pyversions/style-doc)](https://www.python.org)
 [![pypi](https://img.shields.io/pypi/v/style-doc.svg)](https://pypi.python.org/pypi/style-doc)
 <br/>
+[![pytest](https://github.com/telekom/style-doc/actions/workflows/pytest.yml/badge.svg)](https://github.com/telekom/style-doc/actions/workflows/pytest.yml)
 [![Static Code Checks](https://github.com/telekom/style-doc/actions/workflows/static_checks.yml/badge.svg)](https://github.com/telekom/style-doc/actions/workflows/static_checks.yml)
 [![GitHub issues](https://img.shields.io/github/issues-raw/telekom/style-doc)](https://github.com/telekom/style-doc/issues)
 
