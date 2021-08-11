@@ -134,7 +134,6 @@ $ pytest -v tests
 - Did we change or add dependencies?
   - update `install_requires` in `setup.py`
   - update `extras_require` in `setup.py`
-  - update `THIRD-PARTY-NOTICES`
 - Do we need to add persons or organizations to the `LICENSE` file?
 - Is the documentation up to date?
 - Did we change the Python version requirements?
