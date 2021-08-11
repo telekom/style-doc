@@ -7,8 +7,8 @@
 - [Contributing Code](#contributing-code)
 - [Contributing Documentation](#contributing-documentation)
 - [Pull Request Checklist](#pull-request-checklist)
-- [Reporting Bugs, Issues and Planning](#)
-- [Testing, linting and formatting](#)
+- [Reporting Bugs, Issues and Planning](#reporting-bugs-issues-and-planning)
+- [Testing, linting and formatting](#testing-linting-and-formatting)
 - [Style Guidelines](#style-guidelines)
 - [Code Owners](#code-owners)
 
