@@ -128,35 +128,14 @@ $ make format
 
 ## Style Guidelines
 
-- The code must be compatible with Python 3.5 and higher.
+- The code must be compatible with Python 3.6 and higher.
 - Max line length is 119
 - Docstrings
   - Use the [Google docstring format](https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings).
     This is integrated with [Sphinx](https://www.sphinx-doc.org/) using the
     [napoleon extension](https://sphinxcontrib-napoleon.readthedocs.io/).
-  - `__init__` functions never get a docstring. Add constructor documentation at the class level.
 - Versioning follows the [Semantic Versioning Specification](https://semver.org/) and
   [PEP 440 -- Version Identification and Dependency Specification](https://www.python.org/dev/peps/pep-0440/).
-
-## Release Checklist
-
-- Do all tests pass?
-- Did we change or add dependencies?
-  - update `install_requires` in `setup.py`
-  - update `extras_require` in `setup.py`
-- Do we need to add persons or organizations to the `LICENSE` file?
-- Is the documentation up to date?
-- Did we change the Python version requirements?
-  - update `python_requires` in `setup.py`
-  - update `target-version` in `pyproject.toml`
-  - update `classifiers - Programming Language :: Python` in `setup.py`
-  - update [Style Guidelines](#style-guidelines)
-- Other checks
-  - does `classifiers` (Development Status) need an update?
-- If we want to do a full release change version number in `version.py`
-- If we want to do a development release no version change is needed
-- Create a new release in GitHub
-- Bump version number in `version.py` to a new `.devx` version
 
 ## Code Owners
 
