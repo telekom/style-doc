@@ -6,7 +6,7 @@ All members of the project community must abide by the
 [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). Only by respecting each other can we
 develop a productive and collaborative community. Instances of abusive, harassing, or otherwise
 unacceptable behavior may be reported by contacting
-[opensource@telekom.de](mailto:opensource@telekom.de) and/or a [maintainer](#code-owners).
+[opensource@telekom.de](mailto:opensource@telekom.de) and/or a [code owner](#code-owners).
 
 We appreciate your courtesy of avoiding political questions here. Issues that are not related to
 the project itself will be closed by our community managers.
@@ -19,8 +19,8 @@ We use GitHub to manage reviews of pull requests.
 - If you have a trivial fix or improvement, plese go ahead and create a pull request.
 - A general guide to pull requests is here:
   [About pull requests](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
-- If you want you can address (with `@...`) a suitable maintainer of this repository (see 
-  [Code Owners](#code-owners)).
+- If you want you can address (with `@...`) a suitable [code owner](#code-owners) of this 
+  repository.
 - If you plan to do something more involved, please open an issue to start a discussion with us.
   This should avoid unnecessary work for you and us.
 - Relevant coding [style guidelines](#style-guidelines) are available in this document.
@@ -86,7 +86,7 @@ The following rule governs documentation contributions:
 - To differentiate your PR from PRs ready to be merged and to avoid duplicated work,
   please prefix the title with \[WIP\].
 - If your pull request is not getting reviewed, or you need a specific person to review it,
-  you can @-reply a [maintainer](#code-owners) asking for a review in the pull request.
+  you can @-reply a [code owner](#code-owners) asking for a review in the pull request.
 - Post review:
   - If a review requires you to change your commit(s), please test the changes again.
   - Amend the affected commit(s) and force push onto your branch.
