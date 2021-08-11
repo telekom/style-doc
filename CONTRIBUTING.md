@@ -34,8 +34,6 @@ the project itself will be closed by our community managers.
 
 ## Engaging in our Project
 
-We use GitHub to manage reviews of pull requests.
-
 - If you are a new contributor, see: [Steps to Contribute](#steps-to-contribute)
 - If you have a trivial fix or improvement, plese go ahead and create a pull request.
 - A general guide to pull requests is here:
