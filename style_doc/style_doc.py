@@ -557,11 +557,11 @@ def main(*files, max_len=119, check_only=False, py_only=False, rst_only=False):
 
 def main_argparse():
     parser = argparse.ArgumentParser()
-    parser.add_argument("files", nargs="+", help="The file(s) or folder(s) to restyle.")
-    parser.add_argument("--max_len", type=int, help="The maximum length of lines. Default: 119", default=119)
-    parser.add_argument("--check_only", action="store_true", help="Whether to only check and not fix styling issues.")
-    parser.add_argument("--py_only", action="store_true", help="Whether to only check py files.")
-    parser.add_argument("--rst_only", action="store_true", help="Whether to only check rst files.")
+    parser.add_argument("files", nargs="+", help="file(s) or folder(s) to restyle")
+    parser.add_argument("--max_len", type=int, help="maximum length of lines, default: 119", default=119)
+    parser.add_argument("--check_only", action="store_true", help="only check and not fix styling issues")
+    parser.add_argument("--py_only", action="store_true", help="only check py files")
+    parser.add_argument("--rst_only", action="store_true", help="only check rst files")
     args = parser.parse_args()
 
     main(*args.files, max_len=args.max_len, check_only=args.check_only, py_only=args.py_only, rst_only=args.rst_only)
