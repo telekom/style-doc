@@ -94,10 +94,11 @@ The following rule governs documentation contributions:
   - Create a general PR comment to notify the reviewers that your amendments are ready for
     another round of review.
 
-## Issues and Planning
+## Reporting Bugs, Issues and Planning
 
 - We use GitHub issues to track bugs and enhancement requests.
-- Please provide as much context as possible when you open an issue.
+- Please provide as much context as possible when you report a bug and open an issue.
+- Ensure the bug was not already reported by searching on GitHub under Issues.
 - The information you provide must be comprehensive enough to reproduce
   that issue for the assignee.
 
