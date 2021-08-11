@@ -1,44 +1,81 @@
 # Contributing
 
-## Code of conduct
+## Table of Contents
 
-All members of the project community must abide by the [Contributor Covenant v2.0](CODE_OF_CONDUCT.md).
-Only by respecting each other can we develop a productive and collaborative community.
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting
-[opensource@telekom.de](mailto:opensource@telekom.de) and/or a project maintainer.
+- [Code of Conduct](#code-of-conduct)
+- [Reporting Bugs and Issues](#reporting-bugs-and-issues)
+- [Engaging in our Project](#engaging-in-our-project)
+- [Pull Request Checklist](#pull-request-checklist)
+- [Contributing Code](#contributing-code)
+- [Contributing Documentation](#contributing-documentation)
+- [Testing, linting and formatting](#testing-linting-and-formatting)
+- [Style Guidelines](#style-guidelines)
+- [Code Owners](#code-owners)
+
+## Code of Conduct
+
+All members of the project community must abide by the
+[Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). Only by respecting each other can we
+develop a productive and collaborative community. Instances of abusive, harassing, or otherwise
+unacceptable behavior may be reported by contacting
+[opensource@telekom.de](mailto:opensource@telekom.de) and/or a [code owner](#code-owners).
 
 We appreciate your courtesy of avoiding political questions here. Issues that are not related to
 the project itself will be closed by our community managers.
 
-## Engaging in our project
+## Reporting Bugs and Issues
 
-We use GitHub to manage reviews of pull requests.
+- We use GitHub issues to track bugs and enhancement requests.
+- Please provide as much context as possible when you report a bug and open an issue.
+- Ensure the bug was not already reported by searching on GitHub under Issues.
+- The information you provide must be comprehensive enough to reproduce
+  that issue for the assignee.
 
-- If you are a new contributor, see: [Steps to Contribute](#steps-to-contribute)
-- If you have a trivial fix or improvement, go ahead and create a pull request,
-  addressing (with `@...`) a suitable maintainer of this repository (see [Code Owners](#code-owners)).
-- If you plan to do something more involved, please reach out to us and send an [email](mailto:opensource@telekom.de).
-  This will avoid unnecessary work and surely give you and us a good deal of inspiration.
+## Engaging in our Project
+
+- If you have a trivial fix or improvement, plese go ahead and create a pull request.
+- A general guide to pull requests is here:
+  [About pull requests](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
+- If you want you can address (with `@...`) a suitable [code owner](#code-owners) of this
+  repository.
+- If you plan to do something more involved, please open an issue to start a discussion with us.
 - Relevant coding [style guidelines](#style-guidelines) are available in this document.
+- Should you wish to work on an issue, please claim it first by commenting
+  on the GitHub issue that you want to work on. This is to prevent duplicated
+  efforts from other contributors on the same issue.
+- If you have questions about one of the issues, please comment on them,
+  and one of the maintainers will clarify.
+- We kindly ask you to follow the [Pull Request Checklist](#Pull-Request-Checklist)
+  to ensure reviews can happen accordingly.
 
-## Steps to Contribute
+## Pull Request Checklist
 
-Should you wish to work on an issue, please claim it first by commenting
-on the GitHub issue that you want to work on. This is to prevent duplicated
-efforts from other contributors on the same issue.
-
-If you have questions about one of the issues, please comment on them,
-and one of the maintainers will clarify.
-
-We kindly ask you to follow the [Pull Request Checklist](#Pull-Request-Checklist)
-to ensure reviews can happen accordingly.
+- Branch from the master branch and, if needed, rebase to the current master branch
+  before submitting your pull request. You may be asked to rebase your changes if your
+  branch doesn't merge cleanly with master.
+- Commits should be as small as possible while ensuring that each commit is correct
+  independently (i.e., each commit should work and pass tests).
+- Test your changes as thoroughly as possible before you commit them. Preferably,
+  automate your test by unit/integration tests. If tested manually, provide information
+  about the test scope in the PR description (e.g. “Test passed: Upgrade version from
+  0.42 to 0.42.23.”).
+- To differentiate your PR from PRs ready to be merged and to avoid duplicated work,
+  please prefix the title with \[WIP\].
+- If your pull request is not getting reviewed, or you need a specific person to review it,
+  you can @-reply a [code owner](#code-owners) asking for a review in the pull request.
+- Post review:
+  - If a review requires you to change your commit(s), please test the changes again.
+  - Amend the affected commit(s) and force push onto your branch.
+  - Set respective comments in your GitHub review to resolved.
+  - Create a general PR comment to notify the reviewers that your amendments are ready for
+    another round of review.
 
 ## Contributing Code
 
 You are welcome to contribute code in order to fix a bug or to implement a new feature.
 The following rules governs code contributions:
 
-- Contributions must be licensed under the [Apache 2.0 license](LICENSE)
+- Contributions must be licensed under the [license of this project](LICENSE).
 - Newly created files must be opened by the following file header and a
   blank line.
 
@@ -65,49 +102,16 @@ The following rules governs code contributions:
 You are welcome to contribute documentation to the project.
 The following rule governs documentation contributions:
 
-- Contributions must be licensed under the same license as code: the [Apache 2.0 license](LICENSE).
+- Contributions must be licensed under the [license of this project](LICENSE).
+- This is the same license as the code.
 
-## Pull Request Checklist
+## Testing, linting and formatting
 
-- Branch from the master branch and, if needed, rebase to the current master branch
-  before submitting your pull request. You may be asked to rebase your changes if your
-  branch doesn't merge cleanly with master.
-- Commits should be as small as possible while ensuring that each commit is correct
-  independently (i.e., each commit should compile and pass tests).
-- Test your changes as thoroughly as possible before you commit them. Preferably,
-  automate your test by unit/integration tests. If tested manually, provide information
-  about the test scope in the PR description (e.g. “Test passed: Upgrade version from
-  0.42 to 0.42.23.”).
-- To differentiate your PR from PRs ready to be merged and to avoid duplicated work,
-  please prefix the title with \[WIP\]. You can also add a "do not merge" label.
-- If your pull request is not getting reviewed, or you need a specific person to review it,
-  you can @-reply a reviewer asking for a review in the pull request or a comment. Alternatively,
-  you can ask for a review by contacting us via [email](mailto:opensource@telekom.de).
-- Post review:
-  - If a review requires you to change your commit(s), please test the changes again.
-  - Amend the affected commit(s) and force push onto your branch.
-  - Set respective comments in your GitHub review to resolved.
-  - Create a general PR comment to notify the reviewers that your amendments are ready for
-    another round of review.
-
-## Issues and Planning
-
-- We use GitHub issues to track bugs and enhancement requests.
-- Please provide as much context as possible when you open an issue.
-  The information you provide must be comprehensive enough to reproduce
-  that issue for the assignee. Therefore, contributors may use but aren't
-  restricted to the issue template provided by the project maintainers.
-- When creating an issue, try using one of our issue templates. The issue
-  templates contain guidelines on required information that will help us to
-  process the issue most efficiently. If no template applies, you can of course
-  also create an issue from scratch.
-
-## Testing
-
-To run unit tests locally, ensure that you have installed the optional and testing requirements:
+To run unit tests locally, ensure that you have installed all relevant requirements.
+You will probably want to install it in "editable mode" if you are developing locally.
 
 ```bash
-$ pip install ".[optional,testing]"
+$ pip install -e .[optional,testing,checking]
 ```
 
 Unit tests can then be run as follows:
@@ -116,38 +120,28 @@ Unit tests can then be run as follows:
 $ pytest -v tests
 ```
 
+To check for linting errors use make (not available on Windows):
+
+```bash
+$ make check
+```
+
+To format the code use make (not available on Windows):
+
+```bash
+$ make format
+```
+
 ## Style Guidelines
 
-- The code must be compatible with Python 3.5 and higher.
+- The code must be compatible with Python 3.6 and higher.
 - Max line length is 119
 - Docstrings
   - Use the [Google docstring format](https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings).
     This is integrated with [Sphinx](https://www.sphinx-doc.org/) using the
     [napoleon extension](https://sphinxcontrib-napoleon.readthedocs.io/).
-  - `__init__` functions never get a docstring. Add constructor documentation at the class level.
 - Versioning follows the [Semantic Versioning Specification](https://semver.org/) and
   [PEP 440 -- Version Identification and Dependency Specification](https://www.python.org/dev/peps/pep-0440/).
-
-## Release Checklist
-
-- Do all tests pass?
-- Did we change or add dependencies?
-  - update `install_requires` in `setup.py`
-  - update `extras_require` in `setup.py`
-  - update `THIRD-PARTY-NOTICES`
-- Do we need to add persons or organizations to the `LICENSE` file?
-- Is the documentation up to date?
-- Did we change the Python version requirements?
-  - update `python_requires` in `setup.py`
-  - update `target-version` in `pyproject.toml`
-  - update `classifiers - Programming Language :: Python` in `setup.py`
-  - update [Style Guidelines](#style-guidelines)
-- Other checks
-  - does `classifiers` (Development Status) need an update?
-- If we want to do a full release change version number in `version.py`
-- If we want to do a development release no version change is needed
-- Create a new release in GitHub
-- Bump version number in `version.py` to a new `.devx` version
 
 ## Code Owners
 

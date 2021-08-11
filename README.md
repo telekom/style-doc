@@ -1,7 +1,7 @@
 # Style-Doc
 
 [![Apache 2.0 License](https://img.shields.io/github/license/telekom/style-doc)](https://github.com/telekom/style-doc/blob/main/LICENSE)
-[![Contributor Covenant v2.0](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](https://github.com/telekom/style-doc/blob/main/CODE_OF_CONDUCT.md)
+[![Contributor Covenant](https://img.shields.io/badge/Code%20of%20Conduct-Contributor%20Covenant-ff69b4.svg)](https://github.com/telekom/style-doc/blob/main/CODE_OF_CONDUCT.md)
 [![Python Version](https://img.shields.io/pypi/pyversions/style-doc)](https://www.python.org)
 [![pypi](https://img.shields.io/pypi/v/style-doc.svg)](https://pypi.python.org/pypi/style-doc)
 <br/>
@@ -13,6 +13,20 @@ docstrings ([Google docstring format](https://github.com/google/styleguide/blob/
 in Python files or [reStructuredText](https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html).
 
 Style-Doc can handle Linux, Windows and Mac style line endings. The output will nevertheless be convertet to `\n` Linux line endings.
+
+## Table of Contents
+
+- [Maintainers](#maintainers)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Examples](#examples)
+- [Support and Feedback](#support-and-feedback)
+- [Reporting Security Vulnerabilities](#reporting-security-vulnerabilities)
+- [Contribution](#contribution)
+- [Code of Conduct](#code-of-conduct)
+- [Licensing](#licensing)
+
+## Maintainers
 
 ![One Conversation](https://raw.githubusercontent.com/telekom/style-doc/main/docs/source/imgs/1c-logo.png)
 <br/>
@@ -78,32 +92,34 @@ The following channels are available for discussions, feedback, and support requ
 - [open an issue in our GitHub repository](https://github.com/telekom/style-doc/issues/new/choose)
 - [send an e-mail to our open source team](mailto:opensource@telekom.de)
 
+## Reporting Security Vulnerabilities
+
+This project is built with security and data privacy in mind to ensure your data is safe.
+We are grateful for security researchers and users reporting a vulnerability to us, first.
+To ensure that your request is handled in a timely manner and non-disclosure of vulnerabilities
+can be assured, please follow the below guideline.
+
+**Please do not report security vulnerabilities directly on GitHub.
+GitHub Issues can be publicly seen and therefore would result in a direct disclosure.**
+
+Please address questions about data privacy, security concepts,
+and other media requests to the [opensource@telekom.de](mailto:opensource@telekom.de) mailbox.
+
 ## Contribution
 
-Our commitment to open source means that we are enabling -in fact encouraging- all interested
+Our commitment to open source means that we are enabling - in fact encouraging - all interested
 parties to contribute and become part of our developer community.
 
 Contribution and feedback is encouraged and always welcome. For more information about how to
 contribute, as well as additional contribution information, see our
 [Contribution Guidelines](https://github.com/telekom/style-doc/blob/main/CONTRIBUTING.md).
-By participating in this project, you agree to abide by its
-[Code of Conduct](https://github.com/telekom/style-doc/blob/main/CODE_OF_CONDUCT.md) at all times.
 
 ## Code of Conduct
 
 This project has adopted the [Contributor Covenant](https://www.contributor-covenant.org/)
-in version 2.0 as our code of conduct. Please see the details in our
-[CODE_OF_CONDUCT.md](https://github.com/telekom/style-doc/blob/main/CODE_OF_CONDUCT.md).
+as our code of conduct. Please see the details in our
+[Contributor Covenant Code of Conduct](https://github.com/telekom/style-doc/blob/main/CODE_OF_CONDUCT.md).
 All contributors must abide by the code of conduct.
-
-## Working Language
-
-We decided to apply _English_ as the primary project language.
-
-Consequently, all content will be made available primarily in English. We also ask all interested
-people to use English as language to create issues, in their code (comments, documentation etc.) and
-when you send requests to us. The application itself and all end-user facing content will be made
-available in other languages as needed.
 
 ## Licensing
 
