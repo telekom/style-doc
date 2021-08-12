@@ -63,8 +63,8 @@ setuptools.setup(
     keywords=keywords,
     entry_points={"console_scripts": ["style-doc = style_doc:cli_main"]},
     classifiers=[
-        "Development Status :: 3 - Alpha",
-        # "Development Status :: 4 - Beta",
+        # "Development Status :: 3 - Alpha",
+        "Development Status :: 4 - Beta",
         # "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: Apache Software License",
